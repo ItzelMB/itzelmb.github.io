@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../index.css';
+import './aboutMe.css'
 
 const AboutMe = () => (
     <main className="container">
