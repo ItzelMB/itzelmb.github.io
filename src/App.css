@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Nanum+Myeongjo|Playfair+Display|Prata|Arapey|Open+Sans+Condensed:300|Belleza|Harmattan|Thasadith|Aguafina+Script|Cookie|Homemade+Apple|Yellowtail|Tinos&display=swap');
 
+* {
+  margin: 0;
+  text-align: center;
+}
+
 p {
   font-family: 'Thasadith', sans-serif;
+  font-weight: 400;
 }
 
 .title {

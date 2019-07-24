@@ -1,9 +1,11 @@
 import React from 'react';
+import './home.css';
+
 
 const Home = () => (
-    <section>
-        <img src="" alt=""></img>
-        <p>I am a Jr. front-end developer and graphic designer</p>
+    <section class="home bg-fixed ...">
+        <p className="name">Itzel Mb</p>
+        <p className="title">I AM A FRONT-END DEVELOPER & GRAPHIC DESIGNER</p>
     </section>
 );
 
