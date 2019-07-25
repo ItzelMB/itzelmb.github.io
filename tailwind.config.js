@@ -10,4 +10,9 @@ module.exports = {
   },
   variants: {},
   plugins: [],
+  modules: {
+    margin: false,
+    negativeMargin: false,
+    padding: false,
+  }
 }
