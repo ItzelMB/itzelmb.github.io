@@ -1,5 +1,5 @@
 import React from 'react';
-import './aboutMe.css'
+import './aboutMe.css';
 
 const AboutMe = () => (
     <main className="aboutMe">
@@ -20,6 +20,7 @@ const AboutMe = () => (
                 to be the best version of oneself. That is why I am dedicated, determined, flexible and resilient, 
                 I consider myself a lifelong learner.
             </p>
+            <a href="../../assets/Itzelmb-Frontend-resume-eng.pdf" download="itzelmb-resume">Download my resume here</a>
         </div>
     </div>
 
