@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Nanum+Myeongjo|Playfair+Display|Prata|Arapey|Open+Sans+Condensed:300|Belleza|Harmattan|Thasadith|Aguafina+Script|Cookie|Homemade+Apple|Yellowtail|Tinos&display=swap');
 
 #root {
-  background-color: #E6ECEC;
+  background-color: #ffffff;
 }
 
 p {
@@ -14,4 +14,4 @@ p {
   font-size: 2.1rem;
 }
 
-/*#DBE4EA*/
+/*#DBE4EA  #E6ECEC*/

@@ -2,20 +2,25 @@ import React from 'react';
 
 const Projects = () => (
     <section className="projects text-center">
-        <p className="title font-bold pt-12 pb-12 container mx-auto px-12">HERE ARE SOME PROJECTS I'VE WORKED IN</p>
-        <div className="row">
-            <div className="col">
-                <h3>Pokédiscover</h3>
-                <img className="dataLovers" src="https://previews.dropbox.com/p/thumb/AAcAeS5rVRnFQ113dS5I8aDaI4r9PPmoThcGKw4p5vQOqZ5GRY6hHOSJyGcBZ-VTum4JLsanIcEUO1guIgyTcVIsORSnp0-9_aonAACQAejSuFWe35WKuhRq4VTTBWfQT4mF86aDskLL3zFHCvQG7NmtZwdsJXviOYP4YAqf5w5JhaK3GFC1MSZiFB5bIP4dD1StZP4Iw6mcC6FI8ewCCMqLnkSFlvbf4yrlU3W4EgABHB4bi8Fd9Sx_KYOq5qdaDaWM5zjP9x00xlR1VrbBySaSeJtBzmGAXe_E6bVUUKE2k8hZK_KAqGeMS2JRG00PX0ZxAjK-fRmUXspSBpHLBi93/p.png?fv_content=true&size_mode=5" alt="dataLovers"></img>
-                <button>Go to the project</button>
-            </div>
-            <div className="col description">
-                <p className="subtitle">DESCRIPTION</p>
-                <p>This is a Landing page about Pokémon</p>
-                <p>Made with:</p>
-                <div className="tag">Javascript</div>
-                <div className="tag">HTML5</div>
-                <div className="tag">CSS3</div>
+        <div className="container mx-auto px-12">
+            <p className="title font-bold pt-12 pb-12 tracking-wide ">HERE ARE SOME PROJECTS I'VE WORKED IN</p>
+            <h3 className="font-bold text-lg mb-4">Poua social network</h3>
+            <img src="https://66.media.tumblr.com/75aeaec5ac57e3f40f5c8b2561fb7e09/tumblr_pvgzrrHGcO1uww4jco1_1280.png" alt="poua social network"></img>
+            <div className="">
+                <p className="subtitle font-bold text-lg mt-4">DESCRIPTION</p>
+                <p>Poua es una red social creada para contar la historia de México compartiendo entre usuarios los lugares en los que la Historia ocurrió, todo esto desde la perspectiva y conocimiento de los lugares que conoce cada usuario.</p>
+                <p className="font-bold text-lg pt-4">MADE WITH:</p>
+                <div className="tag"><i class="fas fa-angle-left"></i> React Js <i class="fas fa-angle-right"></i></div>
+                <div className="tag"><i class="fas fa-angle-left"></i> Bootstrap <i class="fas fa-angle-right"></i></div>
+                <div className="tag"><i class="fas fa-angle-left"></i> Firebase <i class="fas fa-angle-right"></i></div>
+                <div className="tag"><i class="fas fa-angle-left"></i> HTML5 <i class="fas fa-angle-right"></i></div>
+                <div className="tag"><i class="fas fa-angle-left"></i> CSS3 <i class="fas fa-angle-right"></i></div>
+                <div className="pt-4">
+                    <a href="https://itzelmb.github.io/poua-social-network" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">GO TO THE DEMO</a>
+                </div>
+                <div className="pb-8">
+                    <a href="https://github.com/ItzelMB/poua-social-network" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">GO TO THE REPO</a>
+                </div>
             </div>
         </div>
     </section>
