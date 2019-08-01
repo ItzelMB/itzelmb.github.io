@@ -6,18 +6,18 @@ const AboutMe = () => (
         <div className="container mx-auto px-12">
             <p className="title text-white font-bold text-center pt-12 pb-12">ABOUT ME</p>
             <div className="flex flex-wrap">
-                <div className="w-full md:w-1/2 p-8 mb-10">
-                    <img src="../../img/imb-lab.jpg" className="me"></img>
+                <div className="w-full md:w-1/2 p-8 md:mb-10">
+                    <img src="https://github.com/ItzelMB/itzelmb.github.io/blob/develop/src/img/imb-lab.png?raw=true" className="me"></img>
                 </div>
-                <div className="w-full md:w-1/2 p-8 mb-10">
-                    <p class="text-gray-900 md:text-white text-lg text-base float-right">
+                <div className="w-full md:w-1/2 p-8 mb-10 md:">
+                    <p class="text-gray-900 md:text-white text-lg text-base float-right leading-relaxed mb-4">
                         I am a recently graduated front-end web developer with a background in graphic design, 
                         I 've worked in projects related to UI and web development. 
                         My experience has led me to firmly believe that facing challenges is the best opportunity 
                         to be the best version of oneself. That is why I am dedicated, determined, flexible and resilient, 
                         I consider myself a lifelong learner.
                     </p>
-                    <a href="../../assets/Itzelmb-Frontend-resume-eng.pdf" download="itzelmb-resume">Download my resume here</a>
+                    <a href="https://drive.google.com/open?id=1U7uihwOe3LrqfGj4Cg55IQNZqnlE6z9O" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">DOWNLOAD MY RESUME HERE</a>
                 </div>
             </div>
         </div>
