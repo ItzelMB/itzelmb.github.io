@@ -1,8 +1,8 @@
 import React from 'react';
 
 const SoftSkills = () => (
-    <section className="softSkills">
-        <p className="title">THESE ARE MY PERSONALITY HIGHLIGHTS</p>
+    <section className="softSkills text-center pt-12 pb-12 container mx-auto px-12">
+        <p className="title font-bold">THESE ARE MY PERSONALITY HIGHLIGHTS</p>
         <p>PLANNING & ORGANIZATION</p>
         <p>SELF-LEARNING</p>
         <p>WORKING AS A TEAM</p>

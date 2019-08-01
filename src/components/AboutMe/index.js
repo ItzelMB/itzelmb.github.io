@@ -3,26 +3,23 @@ import './aboutMe.css'
 
 const AboutMe = () => (
     <main className="aboutMe">
-        {/*<p className="title">ABOUT ME</p>*/}
-        <image src="../../img/imb-lab.jpg" className="me"></image>
-
-    <div class="max-w-md w-full lg:flex">
-        <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Woman holding a mug">
-            <img src="https://github.com/ItzelMB/itzelmb.github.io/blob/tailwindCss/src/img/imb-lab.jpg?raw=true" class="w-auto"></img>
+        <div className="container mx-auto px-12">
+            <p className="title text-white font-bold text-center pt-12 pb-12">ABOUT ME</p>
+            <div className="flex flex-wrap">
+                <div className="w-full md:w-1/2 p-8 mb-10">
+                    <img src="../../img/imb-lab.jpg" className="me"></img>
+                </div>
+                <div className="w-full md:w-1/2 p-8 mb-10">
+                    <p class="text-gray-900 md:text-white text-lg text-base float-right">
+                        I am a recently graduated front-end web developer with a background in graphic design, 
+                        I 've worked in projects related to UI and web development. 
+                        My experience has led me to firmly believe that facing challenges is the best opportunity 
+                        to be the best version of oneself. That is why I am dedicated, determined, flexible and resilient, 
+                        I consider myself a lifelong learner.
+                    </p>
+                </div>
+            </div>
         </div>
-
-        <div class="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-            <div class="text-black font-bold text-xl mb-2">ABOUT ME</div>
-            <p class="text-grey-darker text-base">
-                I am a recently graduated front-end web developer with a background in graphic design, 
-                I 've worked in projects related to UI and web development. 
-                My experience has led me to firmly believe that facing challenges is the best opportunity 
-                to be the best version of oneself. That is why I am dedicated, determined, flexible and resilient, 
-                I consider myself a lifelong learner.
-            </p>
-        </div>
-    </div>
-
     </main>
 );
 

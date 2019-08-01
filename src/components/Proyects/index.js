@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Projects = () => (
-    <section className="projects">
-        <p className="title">HERE ARE SOME PROJECTS I'VE WORKED IN</p>
+    <section className="projects text-center">
+        <p className="title font-bold pt-12 pb-12 container mx-auto px-12">HERE ARE SOME PROJECTS I'VE WORKED IN</p>
         <div className="row">
             <div className="col">
                 <h3>Pokédiscover</h3>
