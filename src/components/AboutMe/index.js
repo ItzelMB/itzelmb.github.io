@@ -4,14 +4,14 @@ import './aboutMe.css';
 const AboutMe = () => (
     <main className="aboutMe">
         <div className="container mx-auto px-12">
-            <p className="title text-white font-bold text-center pt-12 pb-12">ABOUT ME</p>
+            <p className="title text-white font-bold text-center tracking-wide pt-12 pb-12">ABOUT ME</p>
             <div className="flex flex-wrap">
                 <div className="w-full md:w-1/2 p-8 md:mb-10">
                     <img src="https://github.com/ItzelMB/itzelmb.github.io/blob/develop/src/img/imb-lab.png?raw=true" className="me"></img>
                 </div>
                 <div className="w-full md:w-1/2 p-8 mb-10 md:">
                     <p class="text-gray-900 md:text-white text-lg text-base float-right leading-relaxed mb-4">
-                        I am a recently graduated front-end web developer with a background in graphic design, 
+                        I am Itzel Morales a recently graduated front-end web developer with a background in graphic design, 
                         I 've worked in projects related to UI and web development. 
                         My experience has led me to firmly believe that facing challenges is the best opportunity 
                         to be the best version of oneself. That is why I am dedicated, determined, flexible and resilient, 
