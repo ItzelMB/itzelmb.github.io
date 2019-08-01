@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Form = () => (
-        <form class="w-full max-w-sm">
+        <form class="w-full max-w-sm text-center container mx-auto px-12">
         <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
                 <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">Full Name</label>

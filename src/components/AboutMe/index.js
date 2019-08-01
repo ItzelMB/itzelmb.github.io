@@ -1,28 +1,26 @@
 import React from 'react';
-import './aboutMe.css'
+import './aboutMe.css';
 
 const AboutMe = () => (
     <main className="aboutMe">
-        {/*<p className="title">ABOUT ME</p>*/}
-        <image src="../../img/imb-lab.jpg" className="me"></image>
-
-    <div class="max-w-md w-full lg:flex">
-        <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Woman holding a mug">
-            <img src="https://github.com/ItzelMB/itzelmb.github.io/blob/tailwindCss/src/img/imb-lab.jpg?raw=true" class="w-auto"></img>
+        <div className="container mx-auto px-12">
+            <p className="title text-white font-bold text-center pt-12 pb-12">ABOUT ME</p>
+            <div className="flex flex-wrap">
+                <div className="w-full md:w-1/2 p-8 md:mb-10">
+                    <img src="https://github.com/ItzelMB/itzelmb.github.io/blob/develop/src/img/imb-lab.png?raw=true" className="me"></img>
+                </div>
+                <div className="w-full md:w-1/2 p-8 mb-10 md:">
+                    <p class="text-gray-900 md:text-white text-lg text-base float-right leading-relaxed mb-4">
+                        I am a recently graduated front-end web developer with a background in graphic design, 
+                        I 've worked in projects related to UI and web development. 
+                        My experience has led me to firmly believe that facing challenges is the best opportunity 
+                        to be the best version of oneself. That is why I am dedicated, determined, flexible and resilient, 
+                        I consider myself a lifelong learner.
+                    </p>
+                    <a href="https://drive.google.com/open?id=1U7uihwOe3LrqfGj4Cg55IQNZqnlE6z9O" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">DOWNLOAD MY RESUME HERE</a>
+                </div>
+            </div>
         </div>
-
-        <div class="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-            <div class="text-black font-bold text-xl mb-2">ABOUT ME</div>
-            <p class="text-grey-darker text-base">
-                I am a recently graduated front-end web developer with a background in graphic design, 
-                I 've worked in projects related to UI and web development. 
-                My experience has led me to firmly believe that facing challenges is the best opportunity 
-                to be the best version of oneself. That is why I am dedicated, determined, flexible and resilient, 
-                I consider myself a lifelong learner.
-            </p>
-        </div>
-    </div>
-
     </main>
 );
 
