@@ -17,7 +17,7 @@ const AboutMe = () => (
                         to be the best version of oneself. That is why I am dedicated, determined, flexible and resilient, 
                         I consider myself a lifelong learner.
                     </p>
-                    <a href="https://drive.google.com/open?id=1U7uihwOe3LrqfGj4Cg55IQNZqnlE6z9O" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">DOWNLOAD MY RESUME HERE</a>
+                    <a href="https://drive.google.com/file/d/1U7uihwOe3LrqfGj4Cg55IQNZqnlE6z9O/view?usp=sharing" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">DOWNLOAD MY RESUME HERE</a>
                 </div>
             </div>
         </div>
