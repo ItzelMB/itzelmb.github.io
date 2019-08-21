@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.ea40d28d.chunk.css",
-    "main.js": "/static/js/main.b336827c.chunk.js",
-    "main.js.map": "/static/js/main.b336827c.chunk.js.map",
+    "main.js": "/static/js/main.119ec216.chunk.js",
+    "main.js.map": "/static/js/main.119ec216.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.716d88e2.chunk.js": "/static/js/2.716d88e2.chunk.js",
-    "static/js/2.716d88e2.chunk.js.map": "/static/js/2.716d88e2.chunk.js.map",
+    "static/js/2.b1b4201c.chunk.js": "/static/js/2.b1b4201c.chunk.js",
+    "static/js/2.b1b4201c.chunk.js.map": "/static/js/2.b1b4201c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0171b57a6b111b9764e1fd1aaa04a735.js": "/precache-manifest.0171b57a6b111b9764e1fd1aaa04a735.js",
+    "precache-manifest.be419263bb06c5f80eb4d3589b5aed8a.js": "/precache-manifest.be419263bb06c5f80eb4d3589b5aed8a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ea40d28d.chunk.css.map": "/static/css/main.ea40d28d.chunk.css.map",
     "static/media/aboutMe.css": "/static/media/bg-about.43cb97a7.png",
@@ -18,6 +18,8 @@
     "static/media/icon4.svg": "/static/media/icon4.9c436915.svg",
     "static/media/icon5.svg": "/static/media/icon5.aa5c652f.svg",
     "static/media/icon6.svg": "/static/media/icon6.73851c65.svg",
-    "static/media/home.css": "/static/media/in3.ffb35d0a.png"
+    "static/media/home.css": "/static/media/in3.ffb35d0a.png",
+    "static/media/mockup-marvelpedia.png": "/static/media/mockup-marvelpedia.fb562fab.png",
+    "static/media/mockup-poua.png": "/static/media/mockup-poua.b01da68e.png"
   }
 }

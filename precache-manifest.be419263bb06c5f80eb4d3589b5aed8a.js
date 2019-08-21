@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68549298a83be90f5a8e8021809aa225",
+    "revision": "d873f1e56e14754191dc598205f47a21",
     "url": "/index.html"
   },
   {
-    "revision": "d72576c3b745252588a3",
+    "revision": "9375074884d63cf43800",
     "url": "/static/css/main.ea40d28d.chunk.css"
   },
   {
-    "revision": "435163dd44e14965feb8",
-    "url": "/static/js/2.716d88e2.chunk.js"
+    "revision": "da029f46b94ce2aab000",
+    "url": "/static/js/2.b1b4201c.chunk.js"
   },
   {
-    "revision": "d72576c3b745252588a3",
-    "url": "/static/js/main.b336827c.chunk.js"
+    "revision": "9375074884d63cf43800",
+    "url": "/static/js/main.119ec216.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -50,5 +50,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ffb35d0a406e98a3b14cfd01a819e126",
     "url": "/static/media/in3.ffb35d0a.png"
+  },
+  {
+    "revision": "fb562fab9e31b60a1a6e4a47ddfdb0c8",
+    "url": "/static/media/mockup-marvelpedia.fb562fab.png"
+  },
+  {
+    "revision": "b01da68eb7a28b788df4ba0833e39aa0",
+    "url": "/static/media/mockup-poua.b01da68e.png"
   }
 ]);
