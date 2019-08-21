@@ -1,25 +1,54 @@
 import React from 'react';
+import PouaImg from '../../img/mockup-poua.png';
+import Marvelpedia from '../../img/mockup-marvelpedia.png';
 
 const Projects = () => (
-    <section className="projects text-center">
+    <section className="projects text-center bg-gray-100">
         <div className="container mx-auto px-12">
             <p className="title font-bold pt-12 pb-12 tracking-wide ">HERE ARE SOME PROJECTS I'VE WORKED IN</p>
-            <h3 className="font-bold text-lg mb-4">Poua social network</h3>
-            <img src="https://66.media.tumblr.com/75aeaec5ac57e3f40f5c8b2561fb7e09/tumblr_pvgzrrHGcO1uww4jco1_1280.png" alt="poua social network"></img>
-            <div className="">
-                <p className="subtitle font-bold text-lg mt-4">DESCRIPTION</p>
-                <p>Poua es una red social creada para contar la historia de México compartiendo entre usuarios los lugares en los que la Historia ocurrió, todo esto desde la perspectiva y conocimiento de los lugares que conoce cada usuario.</p>
-                <p className="font-bold text-lg pt-4">MADE WITH:</p>
-                <div className="tag"><i class="fas fa-angle-left"></i> React Js <i class="fas fa-angle-right"></i></div>
-                <div className="tag"><i class="fas fa-angle-left"></i> Bootstrap <i class="fas fa-angle-right"></i></div>
-                <div className="tag"><i class="fas fa-angle-left"></i> Firebase <i class="fas fa-angle-right"></i></div>
-                <div className="tag"><i class="fas fa-angle-left"></i> HTML5 <i class="fas fa-angle-right"></i></div>
-                <div className="tag"><i class="fas fa-angle-left"></i> CSS3 <i class="fas fa-angle-right"></i></div>
-                <div className="pt-4">
-                    <a href="https://itzelmb.github.io/poua-social-network" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">GO TO THE DEMO</a>
+            <div className="w-full md:flex">
+                <div className="md:w-2/5">
+                    <img src={PouaImg} alt="poua login"></img>
+                    {/*<img src="https://66.media.tumblr.com/75aeaec5ac57e3f40f5c8b2561fb7e09/tumblr_pvgzrrHGcO1uww4jco1_1280.png" alt="poua social network"></img>*/}
                 </div>
-                <div className="pb-8">
-                    <a href="https://github.com/ItzelMB/poua-social-network" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">GO TO THE REPO</a>
+                <div className="md:w-3/5 p-6">
+                    <h3 className="font-bold text-lg mb-4">Poua social network</h3>
+                    <p className="subtitle font-bold text-lg mt-4">DESCRIPTION</p>
+                    <p>Poua is a social network created to tell the story of Mexico by sharing among users the places where History happened, all of this from the perspective and knowledge of the places that each user knows better.</p>
+                    <p className="font-bold text-lg pt-4">MADE WITH:</p>
+                    <div className="flex flex-wrap">
+                        <div className="tag w-full md:flex-1 bg-teal-200 m-3"><i class="fas fa-angle-left"></i> React Js <i class="fas fa-angle-right"></i></div>
+                        <div className="tag w-full md:flex-1 bg-teal-200 m-3"><i class="fas fa-angle-left"></i> Bootstrap <i class="fas fa-angle-right"></i></div>
+                        <div className="tag w-full md:flex-1 bg-teal-200 m-3"><i class="fas fa-angle-left"></i> Firebase <i class="fas fa-angle-right"></i></div>
+                        <div className="tag w-full md:flex-1 bg-teal-200 m-3"><i class="fas fa-angle-left"></i> HTML5 <i class="fas fa-angle-right"></i></div>
+                        <div className="tag w-full md:flex-1 bg-teal-200 m-3"><i class="fas fa-angle-left"></i> CSS3 <i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div className="pt-4">
+                        <a href="https://itzelmb.github.io/poua-social-network" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">GO TO THE DEMO</a>
+                    </div>
+                    <div className="pb-8">
+                        <a href="https://github.com/ItzelMB/poua-social-network" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">GO TO THE REPO</a>
+                    </div>
+                </div>
+            </div>
+            <div className=" w-full md:flex bg-gray-100">
+                <div className="md:w-2/5"><img src={Marvelpedia} alt="mervelpedia login"></img></div>
+                <div className="md:w-3/5 p-6">
+                    <h3 className="font-bold text-lg mb-4">Marvelpedia</h3>
+                    <p className="subtitle font-bold text-lg mt-4">DESCRIPTION</p>
+                    <p>Marvelpedia is a project to introduce users to the marvel film world.</p>
+                    <p className="font-bold text-lg pt-4">MADE WITH:</p>
+                    <div className="flex flex-wrap">
+                        <div className="tag w-full md:flex-1 bg-teal-200 m-3"><i class="fas fa-angle-left"></i> JAVASCRIPT VANILLA <i class="fas fa-angle-right"></i></div>
+                        <div className="tag w-full md:flex-1 bg-teal-200 m-3"><i class="fas fa-angle-left"></i> HTML5 <i class="fas fa-angle-right"></i></div>
+                        <div className="tag w-full md:flex-1 bg-teal-200 m-3"><i class="fas fa-angle-left"></i> CSS3 <i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div className="pt-4">
+                        <a href="https://itzelmb.github.io/GDL002-hackathon-interna/index.html" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">GO TO THE DEMO</a>
+                    </div>
+                    <div className="pb-8">
+                        <a href="https://github.com/ItzelMB/GDL002-hackathon-interna" target="blank" className="text-teal-700 hover:text-teal-400 font-medium text-lg">GO TO THE REPO</a>
+                    </div>
                 </div>
             </div>
         </div>
