@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TechSkills = () => (
-    <section className="techSkills text-center text-3xl container mx-auto px-12 ">
+    <section className="techSkills text-center text-3xl container mx-auto px-12 bg-gray-300">
         <p className="title font-bold tracking-wide pt-12 pb-12">THESE ARE SOME OF THE TECHNOLOGIES I WORK WITH</p>
         <p><i class="fas fa-angle-left"></i> JAVASCRIPT <i class="fas fa-angle-right"></i></p>
         <p><i class="fas fa-angle-left"></i> HTML5 <i class="fas fa-angle-right"></i></p>
